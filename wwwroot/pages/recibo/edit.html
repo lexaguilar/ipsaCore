@@ -1,0 +1,304 @@
+<div class="row">
+    <div class="col-md-10">
+        <div class="panel panel-main panel-default">
+            <div class="panel-heading panel-heading-title">
+                <div class="row marging-10">
+                    <h4 class="panel-title">Nuevo recibo de caja</h4>
+                </div>
+            </div>
+            <div class="panel-body panel-body-nopadding">
+                <div class="row marging-10">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="FechaProceso" class="control-label">Fecha de proceso</label>
+                            <input type="text" id="FechaProceso" class="form-control datepicker" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="TipoMonedaId" class="control-label">Moneda</label>
+                            <select id="TipoMonedaId" class="select">
+                                <option value="">Seleccione...</option>
+                                <option value="1" selected="selected">CORDOBAS</option>
+                                <option value="2">DOLARES</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="NoOrdenPago" class="control-label">No de Orden</label>
+                            <input type="text" id="NoOrdenPago" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="Muestra" class="control-label">Muestra</label>
+                            <input type="text" id="Muestra" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="NoSerie" class="control-label">No de serie</label>
+                            <input type="text" id="NoSerie" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row marging-10">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="ClienteId" class="control-label">Identificación</label>
+                            <input type="text" id="ClienteId" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="TipoCleinteId" class="control-label">Tipo</label>
+                            <input type="text" id="TipoCleinteId" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Beneficiario" class="control-label">Beneficiario</label>
+                            <input type="text" id="Beneficiario" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row marging-10">
+                    <div class="col-md-12">
+                        <div class="panel panel-dark panel-alt widget-quick-status-post">
+                            <div class="panel-body">
+                                <ul class="nav nav-tabs nav-justified">
+                                    <li class="active"><a href="#post-status" data-toggle="tab"><i class="fa fa-list"></i> <strong>Servicios</strong></a></li>
+                                    <li><a href="#post-photo" data-toggle="tab"><i class="fa fa-money"></i> <strong>Detalle de pago</strong></a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="post-status" class="tab-pane active">
+                                        <!-- tabla aqui -->
+                                        <div class="col-md-12">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-email table-hidaction table-hover">
+                                                            <tbody>
+                                                            <tr class="unread">
+                                                                <td class="table-action-hide">
+                                                                    <a href="#" class="star"><i class="glyphicon glyphicon-remove"></i></a>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">MARCHAMOS</h4>
+                                                                            <p class="email-summary"><strong>42010101920005100</strong></p>
+                                                                            <small class="text-muted">DELEGACION DE CHINANDEGA SANIDAD VEGETAL</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">5.0</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 20</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 100.00</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="unread">
+                                                                <td class="table-action-hide">
+                                                                    <a href="#" class="star"><i class="glyphicon glyphicon-remove"></i></a>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">MARCHAMOS</h4>
+                                                                            <p class="email-summary"><strong>42010101920005100</strong></p>
+                                                                            <small class="text-muted">DELEGACION DE CHINANDEGA SANIDAD VEGETAL</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">5.0</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 20</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 100.00</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="unread">
+                                                                <td class="table-action-hide">
+                                                                    <a href="#" class="star"><i class="glyphicon glyphicon-remove"></i></a>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">MARCHAMOS</h4>
+                                                                            <p class="email-summary"><strong>42010101920005100</strong></p>
+                                                                            <small class="text-muted">DELEGACION DE CHINANDEGA SANIDAD VEGETAL</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">5.0</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 20</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 100.00</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="unread">
+                                                                <td class="table-action-hide">
+                                                                    <a href="#" class="star"><i class="glyphicon glyphicon-remove"></i></a>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">MARCHAMOS</h4>
+                                                                            <p class="email-summary"><strong>42010101920005100</strong></p>
+                                                                            <small class="text-muted">DELEGACION DE CHINANDEGA SANIDAD VEGETAL</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">5.0</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 20</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="media">
+                                                                        <div class="media-body">
+                                                                            <h4 class="text-primary">$ 100.00</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div><!-- table-responsive -->
+                                                </div><!-- panel-body -->
+                                            </div><!-- panel -->
+                                        </div>
+                                        <!-- end tabla -->
+                                    </div>
+                                    <div id="post-photo" class="tab-pane">
+                                        <!-- tabla aqui -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <small class="stat-label">Servicios</small>
+                                        <h4 class="resumen-pago">$ 76.00</h4>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <small class="stat-label">Detalle de pago</small>
+                                        <h4 class="resumen-pago">$ 76.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer" style="display: block;">
+                <div class="row">
+                    <div class="col-sm-2 col-sm-offset-5">
+                        <button class="btn btn-success btn-block">GUARDAR</button>&nbsp;
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading panel-heading-title">
+                <div class="row marging-10">
+                    <h4 id="lblNumRecibo" class="panel-title unsaved-bill">No 0000010623</h4>
+                </div>
+            </div>
+            <div class="panel-body panel-body-nopadding">
+                <ul class="chatuserlist">
+                    <li class="online">
+                        <div class="media">
+                            <div class="media-body">
+                                <strong>USUARIO <span class="text-primary glyphicon glyphicon-user"></span></strong>
+                                <small class="small-14">Dimas Quiroz</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="online">
+                        <div class="media">
+                            <div class="media-body">
+                                <strong>CREADO EL <span class="text-success glyphicon glyphicon-time"></span></strong>
+                                <small class="small-14">20/10/2018 3:01 p.m.</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="online">
+                        <div class="media">
+                            <div class="media-body">
+                                <strong>ESTADO <span class="text-warning glyphicon glyphicon-pushpin"></span></strong>
+                                <small class="small-14">Pendiente</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="online">
+                        <div class="media">
+                            <div class="media-body">
+                                <strong>CAJA <span class="text-danger fa fa-map-marker"></span></strong>
+                                <small class="small-14">DELEGACION DE LEON</small>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
