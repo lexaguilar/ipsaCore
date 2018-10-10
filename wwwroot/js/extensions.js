@@ -90,6 +90,7 @@ $.fn.loadCatalog = function (settings) {
                     resolve(result);
                 }
 
+                
                 var parameters = options.parameters ? options.parameters : buildParameters(properties.data);
                 var url = options.url ? (properties.routePrefix + options.url) : findUrl(properties, options.extraParams);
 
